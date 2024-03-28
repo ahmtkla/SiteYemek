@@ -20,13 +20,13 @@
         .auto-style10 {
             margin-left: 40px;
         }
-        .auto-style11 {
-            text-align: right;
-        }
-        .auto-style12 {
-            font-size: medium;
-            font-weight: bold;
-        }
+    .auto-style11 {
+        text-align: right;
+    }
+    .auto-style12 {
+        font-size: medium;
+        font-weight: bold;
+    }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">

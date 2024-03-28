@@ -40,37 +40,37 @@
     <tr>
         <td class="auto-style9"><strong>Tarif Ad :</strong></td>
         <td>
-            <asp:TextBox ID="TxtTarifAd" runat="server" Width="250px"></asp:TextBox>
+            <asp:TextBox ID="TxtTarifAd" runat="server" Width="250px" CssClass="tb5"></asp:TextBox>
         </td>
     </tr>
     <tr>
         <td class="auto-style9"><strong>Malzemeler :</strong></td>
         <td>
-            <asp:TextBox ID="TxtMalzemeler" runat="server" Height="80px" TextMode="MultiLine" Width="250px"></asp:TextBox>
+            <asp:TextBox ID="TxtMalzemeler" runat="server" Height="80px" TextMode="MultiLine" Width="250px" CssClass="tb5"></asp:TextBox>
         </td>
     </tr>
     <tr>
         <td class="auto-style9"><strong>Yapılış :</strong></td>
         <td class="auto-style5">
-            <asp:TextBox ID="TxtYapilis" runat="server" Height="150px" TextMode="MultiLine" Width="250px"></asp:TextBox>
+            <asp:TextBox ID="TxtYapilis" runat="server" Height="150px" TextMode="MultiLine" Width="250px" CssClass="tb5"></asp:TextBox>
         </td>
     </tr>
     <tr>
         <td class="auto-style8"><strong>Resim :</strong></td>
         <td class="auto-style7">
-            <asp:FileUpload ID="FileUplo" runat="server" Width="250px" />
+            <asp:FileUpload ID="FileUplo" runat="server" Width="250px" CssClass="tb5" />
         </td>
     </tr>
     <tr>
         <td class="auto-style8"><strong>Tarif Öneren :</strong></td>
         <td class="auto-style7">
-            <asp:TextBox ID="TxtTarifOneren" runat="server" Width="250px"></asp:TextBox>
+            <asp:TextBox ID="TxtTarifOneren" runat="server" Width="250px" CssClass="tb5"></asp:TextBox>
         </td>
     </tr>
     <tr>
         <td class="auto-style8"><strong>Mail Adresi :</strong></td>
         <td class="auto-style7">
-            <asp:TextBox ID="TxtMailAdresi" runat="server" TextMode="Email" Width="250px"></asp:TextBox>
+            <asp:TextBox ID="TxtMailAdresi" runat="server" TextMode="Email" Width="250px" CssClass="tb5"></asp:TextBox>
         </td>
     </tr>
     <tr>
