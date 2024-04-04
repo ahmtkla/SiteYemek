@@ -44,22 +44,22 @@
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
-                            <td>KATEGORİLER</td>
+                            <td style="border: thin solid #FFFFFF"><a href="Kategoriler.aspx">KATEGORİLER</a> </td>
                         </tr>
                         <tr>
-                            <td>YEMEKLER</td>
+                            <td style="border: thin solid #FFFFFF">YEMEKLER</td>
                         </tr>
                         <tr>
-                            <td class="auto-style5">YORUMLAR</td>
+                            <td class="auto-style5" style="border: thin solid #FFFFFF">YORUMLAR</td>
                         </tr>
                         <tr>
-                            <td class="auto-style5">GÜNÜN YEMEĞİ</td>
+                            <td class="auto-style5" style="border: thin solid #FFFFFF">GÜNÜN YEMEĞİ</td>
                         </tr>
                         <tr>
-                            <td class="auto-style5">ÖNERİLER</td>
+                            <td class="auto-style5" style="border: thin solid #FFFFFF">ÖNERİLER</td>
                         </tr>
                         <tr>
-                            <td class="auto-style5">HAKKIMIZDA</td>
+                            <td class="auto-style5" style="border: thin solid #FFFFFF">HAKKIMIZDA</td>
                         </tr>
                     </table>
                     <br />
