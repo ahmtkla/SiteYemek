@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="AnaSayfa.aspx" />
     <Content Include="KategoriDetay.aspx" />
+    <Content Include="Resimler\banner.jpg" />
     <Content Include="Resimler\blogpicture.jpg" />
     <Content Include="GununYemegi.aspx" />
     <Content Include="Hakkımızda.aspx" />
