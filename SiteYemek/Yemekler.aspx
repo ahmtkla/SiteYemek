@@ -144,7 +144,7 @@
             <tr>
                 <td class="auto-style21"></td>
                 <td class="auto-style20"><strong>
-                    <asp:Button ID="BtnEkle" runat="server" CssClass="auto-style19" Text="EKLE" Width="100px" />
+                    <asp:Button ID="BtnEkle" runat="server" CssClass="auto-style19" OnClick="BtnEkle_Click" Text="EKLE" Width="100px" />
                     </strong></td>
             </tr>
         </table>
