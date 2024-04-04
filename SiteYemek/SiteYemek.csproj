@@ -70,6 +70,7 @@
     <Content Include="Admin.aspx" />
     <Content Include="AnaSayfa.aspx" />
     <Content Include="BannerFoto\login.jpg" />
+    <Content Include="KategoriDüzenle.aspx" />
     <Content Include="KategoriDetay.aspx" />
     <Content Include="BannerFoto\banner.jpg" />
     <Content Include="Kategoriler.aspx" />
@@ -127,6 +128,13 @@
     </Compile>
     <Compile Include="iletisim.aspx.designer.cs">
       <DependentUpon>iletisim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KategoriDüzenle.aspx.cs">
+      <DependentUpon>KategoriDüzenle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KategoriDüzenle.aspx.designer.cs">
+      <DependentUpon>KategoriDüzenle.aspx</DependentUpon>
     </Compile>
     <Compile Include="KategoriDetay.aspx.cs">
       <DependentUpon>KategoriDetay.aspx</DependentUpon>
