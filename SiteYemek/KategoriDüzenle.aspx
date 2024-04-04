@@ -40,7 +40,7 @@
         <tr>
             <td>&nbsp;</td>
             <td class="auto-style7"><strong>
-                <asp:Button ID="Button1" runat="server" Text="Button" Width="150px" />
+                <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" Width="150px" />
                 </strong></td>
         </tr>
     </table>
