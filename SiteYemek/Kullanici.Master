@@ -27,6 +27,9 @@
         .auto-style4 {
             font-size: large;
         }
+        .auto-style5 {
+            color: #66FFFF;
+        }
     </style>
 </head>
 <body>
@@ -56,7 +59,9 @@
                 <asp:DataList ID="DataList1" runat="server" Width="198px">
                     <ItemTemplate>
                         <div style="border: thin solid #CCCCCC">
-                            <asp:Label ID="Label1" runat="server" Text='<%# Eval("KategoriAd") %>'></asp:Label>
+                           <a href="KategoriDetay.aspx?Kategoriid=<%#Eval("Kategoriid") %>"> <strong>
+                            <asp:Label ID="Label1" runat="server" CssClass="auto-style5" Text='<%# Eval("KategoriAd") %>'></asp:Label>
+                            </strong></a>
                             &nbsp;( <asp:Label ID="Label2" runat="server" Text='<%# Eval("KategoriAdet") %>'></asp:Label>
                             )</div>
                     </ItemTemplate>
