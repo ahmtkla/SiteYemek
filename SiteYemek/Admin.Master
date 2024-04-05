@@ -61,6 +61,9 @@
                         <tr>
                             <td class="auto-style5" style="border: thin solid #FFFFFF">HAKKIMIZDA</td>
                         </tr>
+                        <tr>
+                            <td class="auto-style5" style="border: thin solid #FFFFFF"><a href="Mesajlar.aspx"> MESAJLAR</a></td>
+                        </tr>
                     </table>
                     <br />
                 </div>

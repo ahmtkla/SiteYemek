@@ -74,6 +74,7 @@
     <Content Include="KategoriDetay.aspx" />
     <Content Include="BannerFoto\banner.jpg" />
     <Content Include="Kategoriler.aspx" />
+    <Content Include="Mesajlar.aspx" />
     <Content Include="Resimler\blogpicture.jpg" />
     <Content Include="GununYemegi.aspx" />
     <Content Include="Hakkımızda.aspx" />
@@ -88,6 +89,7 @@
     <Content Include="YorumDetay.aspx" />
     <Content Include="Yorumlar.aspx" />
     <Content Include="İkonlar\delete.png" />
+    <Content Include="İkonlar\OKU.png" />
     <Content Include="İkonlar\UPDATE.png" />
   </ItemGroup>
   <ItemGroup>
@@ -160,6 +162,13 @@
     </Compile>
     <Compile Include="Kullanici.Master.designer.cs">
       <DependentUpon>Kullanici.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Mesajlar.aspx.cs">
+      <DependentUpon>Mesajlar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mesajlar.aspx.designer.cs">
+      <DependentUpon>Mesajlar.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="sqlsinif.cs" />
