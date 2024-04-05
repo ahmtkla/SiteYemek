@@ -70,6 +70,7 @@
     <Content Include="Admin.aspx" />
     <Content Include="AnaSayfa.aspx" />
     <Content Include="BannerFoto\login.jpg" />
+    <Content Include="GununYemegiAdmin.aspx" />
     <Content Include="KategoriDüzenle.aspx" />
     <Content Include="KategoriDetay.aspx" />
     <Content Include="BannerFoto\banner.jpg" />
@@ -88,6 +89,7 @@
     <Content Include="Yemekler.aspx" />
     <Content Include="YorumDetay.aspx" />
     <Content Include="Yorumlar.aspx" />
+    <Content Include="İkonlar\choose.png" />
     <Content Include="İkonlar\delete.png" />
     <Content Include="İkonlar\OKU.png" />
     <Content Include="İkonlar\UPDATE.png" />
@@ -120,6 +122,13 @@
     </Compile>
     <Compile Include="GununYemegi.aspx.designer.cs">
       <DependentUpon>GununYemegi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GununYemegiAdmin.aspx.cs">
+      <DependentUpon>GununYemegiAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GununYemegiAdmin.aspx.designer.cs">
+      <DependentUpon>GununYemegiAdmin.aspx</DependentUpon>
     </Compile>
     <Compile Include="Hakkımızda.aspx.cs">
       <DependentUpon>Hakkımızda.aspx</DependentUpon>
