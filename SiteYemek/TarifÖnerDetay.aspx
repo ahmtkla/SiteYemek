@@ -16,6 +16,9 @@
         font-size: medium;
         font-weight: bold;
     }
+        .auto-style13 {
+            margin-bottom: 0px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -66,9 +69,16 @@
                     </strong></td>
             </tr>
             <tr>
+                <td class="auto-style11">Kategori :</td>
+                <td class="auto-style10">
+                    <asp:DropDownList ID="DropDownList1" runat="server" CssClass="auto-style13" Width="200px">
+                    </asp:DropDownList>
+                </td>
+            </tr>
+            <tr>
                 <td>&nbsp;</td>
                 <td class="auto-style10"><strong>
-                    <asp:Button ID="YorumYap" runat="server" CssClass="auto-style12"  Text="Onayla" Width="200px" />
+                    <asp:Button ID="Button1" runat="server" CssClass="auto-style12"  Text="Onayla" Width="200px" OnClick="Button1_Click1" />
                     </strong></td>
             </tr>
         </table>
