@@ -85,6 +85,7 @@
     <Content Include="Resimler\mücver.jpg" />
     <Content Include="Tarifler.aspx" />
     <Content Include="TarifOner.aspx" />
+    <Content Include="TarifÖnerDetay.aspx" />
     <Content Include="Web.config" />
     <Content Include="YemekDetay.aspx" />
     <Content Include="YemekDüzenle.aspx" />
@@ -204,6 +205,13 @@
     </Compile>
     <Compile Include="TarifOner.aspx.designer.cs">
       <DependentUpon>TarifOner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TarifÖnerDetay.aspx.cs">
+      <DependentUpon>TarifÖnerDetay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TarifÖnerDetay.aspx.designer.cs">
+      <DependentUpon>TarifÖnerDetay.aspx</DependentUpon>
     </Compile>
     <Compile Include="YemekDetay.aspx.cs">
       <DependentUpon>YemekDetay.aspx</DependentUpon>
