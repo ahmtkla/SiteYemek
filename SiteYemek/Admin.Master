@@ -53,7 +53,7 @@
                             <td class="auto-style5" style="border: thin solid #FFFFFF"><a href="Yorumlar.aspx">YORUMLAR</a> </td>
                         </tr>
                         <tr>
-                            <td class="auto-style5" style="border: thin solid #FFFFFF">GÜNÜN YEMEĞİ</td>
+                            <td class="auto-style5" style="border: thin solid #FFFFFF"><a href="GununYemegiAdmin.aspx"> GÜNÜN YEMEĞİ</a></td>
                         </tr>
                         <tr>
                             <td class="auto-style5" style="border: thin solid #FFFFFF">ÖNERİLER</td>

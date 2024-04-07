@@ -16,6 +16,10 @@
             font-weight: bold;
             background-color: #9999FF;
         }
+        .auto-style10 {
+            font-size: large;
+            background-color: #CC0000;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -54,6 +58,16 @@
             <td class="auto-style7"><strong>
                 <asp:Button ID="Button1" runat="server" CssClass="auto-style9" Text="Güncelle" Width="250px" OnClick="Button1_Click" />
                 </strong></td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td class="auto-style7"><strong>
+                <asp:Button ID="Button2" runat="server" CssClass="auto-style10" OnClick="Button2_Click" Text="Günün Yemeği Seç" Width="250px" />
+                </strong></td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td class="auto-style7">&nbsp;</td>
         </tr>
     </table>
 </asp:Content>
