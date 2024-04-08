@@ -71,6 +71,7 @@
     <Content Include="AnaSayfa.aspx" />
     <Content Include="BannerFoto\login.jpg" />
     <Content Include="GununYemegiAdmin.aspx" />
+    <Content Include="HakkımızdaAdmin.aspx" />
     <Content Include="KategoriDüzenle.aspx" />
     <Content Include="KategoriDetay.aspx" />
     <Content Include="BannerFoto\banner.jpg" />
@@ -140,6 +141,13 @@
     </Compile>
     <Compile Include="Hakkımızda.aspx.designer.cs">
       <DependentUpon>Hakkımızda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HakkımızdaAdmin.aspx.cs">
+      <DependentUpon>HakkımızdaAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HakkımızdaAdmin.aspx.designer.cs">
+      <DependentUpon>HakkımızdaAdmin.aspx</DependentUpon>
     </Compile>
     <Compile Include="iletisim.aspx.cs">
       <DependentUpon>iletisim.aspx</DependentUpon>
