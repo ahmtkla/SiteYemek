@@ -78,12 +78,12 @@
     <Content Include="Kategoriler.aspx" />
     <Content Include="MesajDetay.aspx" />
     <Content Include="Mesajlar.aspx" />
-    <Content Include="Resimler\blogpicture.jpg" />
+    <Content Include="resimler\blogpicture.jpg" />
     <Content Include="GununYemegi.aspx" />
     <Content Include="Hakkımızda.aspx" />
     <Content Include="iletisim.aspx" />
     <Content Include="Kullanici.css" />
-    <Content Include="Resimler\mücver.jpg" />
+    <Content Include="resimler\mücver.jpg" />
     <Content Include="Tarifler.aspx" />
     <Content Include="TarifOner.aspx" />
     <Content Include="TarifÖnerDetay.aspx" />

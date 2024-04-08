@@ -33,14 +33,14 @@
             <table class="auto-style1">
                 <tr>
                     <td>
-                        <asp:Image ID="Image1" runat="server" Height="147px" ImageUrl="~/Resimler/mücver.jpg" Width="412px" />
+                        <asp:Image ID="Image1" runat="server" Height="147px" ImageUrl='<%# Eval("YemekResim") %>' Width="412px" />
                     </td>
                 </tr>
             </table>
             <table class="auto-style1">
                 <tr>
-                    <td class="auto-style3">
-                        &nbsp;</td>
+                    <td class="auto-style9">
+                        </td>
                 </tr>
                 <tr>
                     <td>
@@ -72,7 +72,8 @@
         .auto-style7 {
             font-size: x-large;
         }
-        .auto-style8 {
+        .auto-style9 {
+            text-align: left;
             height: 26px;
         }
     </style>
